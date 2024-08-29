@@ -1,0 +1,5 @@
+vendedor = input()
+salfixo = float(input())
+totalvendas = float(input())
+salario = salfixo+((totalvendas*15)/100)
+print(f'TOTAL = R$ {salario:.2f}')

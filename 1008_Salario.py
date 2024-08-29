@@ -1,0 +1,6 @@
+funcionario = int(input())
+numhora = int(input())
+valorhora = float(input())
+salario = float(numhora*valorhora)
+print(f'NUMBER = {funcionario}')
+print(f'SALARY = U$ {salario:.2f}')
